@@ -19,7 +19,6 @@ export default {
       <meta name="description" content="cli-blaze npm package documentation website" />
       <meta name="og:description" content="cli-blaze" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/1513835199435612165/4DrOwmDf_x96.jpg" />
       <meta name="twitter:site:domain" content="https://cliblaze.simonedelpopolo.com" />
       <meta name="twitter:url" content="https://cliblaze.simonedelpopolo.com" />
       <meta name="og:title" content="cli-blaze" />

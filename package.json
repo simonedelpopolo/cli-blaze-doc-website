@@ -5,20 +5,20 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "start": "next start",
-    "build": "next build"
+    "start": "npx koorie --static-files=public --middleware=off --cluster --experimental-log-writer --logger='options(quiet:true|write:logs/koorie.log.json)' --silenced",
+    "build": "next build && next export && mv ./out ./public && rm -rf ./.next"
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "next": "^12.1.0",
+    "koorie": "^1.17.14-alpha",
+    "next": "^12.1.6",
     "nextra": "^1.1.0",
-    "nextra-theme-docs": "^1.2.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "sharp": "^0.30.4"
+    "nextra-theme-docs": "^1.2.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
   },
   "devDependencies": {
-    "prettier": "^2.0.5"
+    "prettier": "^2.6.2"
   },
   "prettier": {
     "semi": false,
