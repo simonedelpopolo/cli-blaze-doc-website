@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "start": "npx koorie --static-files=public --middleware=off --cluster --experimental-log-writer --logger='options(quiet:true|write:logs/koorie.log.json)' --silenced",
+    "start": "npx koorie --static-files=public --middleware=off --cluster --experimental-log-writer --logger='options(quiet:true|write:logs/koorie.log.json)' --silenced --adress=0.0.0.0",
     "build": "next build && next export && mv ./out ./public"
   },
   "license": "Apache-2.0",
