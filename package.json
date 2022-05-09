@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next",
     "start": "npx koorie --static-files=public --middleware=off --cluster --experimental-log-writer --logger='options(quiet:true|write:logs/koorie.log.json)' --silenced",
-    "build": "next build && next export && mv ./out ./public && rm -rf ./.next"
+    "build": "next build && next export && mv ./out ./public"
   },
   "license": "Apache-2.0",
   "dependencies": {
