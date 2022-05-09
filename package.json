@@ -1,0 +1,48 @@
+{
+  "name": "cli-blaze-doc-website",
+  "version": "1.0.0",
+  "description": "hosted on vercel build using next.js Nextra static website generator",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "next": "^12.1.0",
+    "nextra": "^1.1.0",
+    "nextra-theme-docs": "^1.2.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sharp": "^0.30.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "keywords": [
+    "cli",
+    "framework",
+    "flags",
+    "commands",
+    "multi process"
+  ],
+  "author": {
+    "name": "Simone Del Popolo",
+    "email": "simonedelpopolo@outlook.com",
+    "url": "https://github.com/simonedelpopolo"
+  },
+  "homepage": "https://github.com/simonedelpopolo/cli-blaze#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonedelpopolo/cli-blaze.git"
+  },
+  "bugs": {
+    "email": "simonedelpopolo@outlook.com",
+    "url": "https://github.com/simonedelpopolo/cli-blaze/issues"
+  }
+}
